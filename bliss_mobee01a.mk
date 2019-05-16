@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2018 BlissRoms Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -23,7 +23,7 @@ $(call inherit-product, device/LYF/mobee01a/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mobee01a
-PRODUCT_NAME := full_mobee01a
+PRODUCT_NAME := bliss_mobee01a
 PRODUCT_BRAND := LYF
 PRODUCT_MODEL := Water 8
 PRODUCT_MANUFACTURER := LYF
