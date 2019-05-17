@@ -15,7 +15,7 @@
 $(call inherit-product, device/LYF/mobee01a/full_mobee01a.mk)
 
 # Inherit some common BlissRom stuff.
-$(call inherit-product, vendor/bliss/config/common_mini_phone.mk)
+#$(call inherit-product, vendor/bliss/config/common_mini_phone.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8939
@@ -32,3 +32,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=LS-5015
 
 BUILD_FINGERPRINT := LYF/LS-5015/LS-5015:6.0.1/MMB29M/434:user/release-keys
+
+ALLOW_MISSING_DEPENDENCIES=true
