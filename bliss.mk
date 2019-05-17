@@ -15,7 +15,7 @@
 $(call inherit-product, device/LYF/mobee01a/full_mobee01a.mk)
 
 # Inherit some common BlissRom stuff.
-#$(call inherit-product, vendor/bliss/config/common_mini_phone.mk)
+$(call inherit-product, vendor/bliss/config/common.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8939
